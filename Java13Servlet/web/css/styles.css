@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-ene-2018, 9:54:47
+    Author     : Alumno
+*/
+#data {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#data td, #data th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#data tr:nth-child(even){background-color: #f2f2f2;}
+
+#data tr:hover {background-color: #ddd;}
+
+#data th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #4C4F50;
+    color: white;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+    background-color: rgb(242,230,255);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+#formulario {
+    width: 150px;
+    clear: both;
+}
+#formulario input {
+    width: 100%;
+    clear: both;
+}
+input:invalid{
+    background-color: lightpink;
+}
+input:valid{
+    background-color: lightyellow;
+}
+input:invalid + .check{
+    visibility:visible;
+}
+input:valid + .check{
+    visibility:hidden;
+}
